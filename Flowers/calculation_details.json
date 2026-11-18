@@ -1,0 +1,68 @@
+{
+    "filename": "111",
+    "width": 1204,
+    "height": 1600,
+    "total_pixels": 1926400,
+    "aspect_ratio": 0.7525,
+    "rgb_mean": [
+        121.1794056270764,
+        108.18257371262459,
+        108.1871246885382
+    ],
+    "t_depth": 2506.967782974243,
+    "raw_depth_min": 0.0,
+    "raw_depth_max": 304.3459777832031,
+    "depth_norm_mean": 104.10219476744186,
+    "depth_norm_std": 91.7237848894827,
+    "depth_p25": 5.0,
+    "depth_p75": 200.0,
+    "t_biref": 2984.614849090576,
+    "bbox_b": [
+        0,
+        120,
+        977,
+        1599
+    ],
+    "bound_pixels": 768728,
+    "bound_coverage": 39.904900332225914,
+    "t_afdc": 209.33270454406738,
+    "afdc_logit_min": -8.318434715270996,
+    "afdc_logit_max": 15.16491985321045,
+    "afdc_pixels": 1072953,
+    "afdc_coverage": 55.69731104651163,
+    "d_focus_afdc": 0.7607843279838562,
+    "afdc_biref_iou": 71.22741675151619,
+    "t_sam": 283.63871574401855,
+    "sam_points_count": 7,
+    "candidate_ious": [
+        0.3402,
+        0.6419,
+        0.8838
+    ],
+    "best_iou": 0.8837743543795055,
+    "refined_pixels": 843252,
+    "refined_coverage": 43.7734634551495,
+    "alpha_min": 0.0,
+    "alpha_max": 1.0,
+    "d_focus_final": 0.8078431487083435,
+    "disp_min": 0.0,
+    "disp_max": 1.1360294818878174,
+    "disp_mean": 0.6070824265480042,
+    "blur_k": 45,
+    "t_render": 62.51406669616699,
+    "t_total": 29.486395359039307,
+    "shap": {
+        "phi_semantic": 0.07545841409349426,
+        "phi_depth": 0.4829820964344738,
+        "phi_boundary": -2.302147428660343e-05,
+        "pct_semantic": 13.511789001325447,
+        "pct_depth": 86.48408871083168,
+        "pct_boundary": 0.004122287842872162,
+        "shap_summary_path": "D:\\hassan\\my_test\\output\\111\\10_shap_explanation.png"
+    },
+    "lime": {
+        "top_label": 1,
+        "num_features_analyzed": 8,
+        "lime_summary_path": "D:\\hassan\\my_test\\output\\111\\11_lime_explanation.png"
+    }
+}
